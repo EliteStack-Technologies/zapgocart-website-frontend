@@ -76,7 +76,7 @@ export default function BusinessContinuitySection() {
           {/* Center Illustration - only visible on xl and up */}
           <div className="relative z-10 hidden xl:block xl:static xl:w-auto xl:mx-24">
             <Image
-              src="/Illustration.png"
+              src="/illustration.png"
               alt="ZapCart Business Flow"
               width={500}
               height={300}
@@ -86,7 +86,7 @@ export default function BusinessContinuitySection() {
           </div>
 
           {/* Right Cards */}
-          <div className="w-full md:w-1/2 xl:w-auto xl:absolute right-0 top-1/2 xl:-translate-y-1/2 space-y-8 flex flex-col items-center xl:items-end mt-8 md:mt-0">
+          <div className="w-full md:w-1/2 xl:w-auto xl:absolute right-0 top-1/2 xl:-translate-y-1/2 space-y-8 flex flex-col items-center xl:items-end mt-8 ">
             {/* Lower Operating Cost */}
             <div className="bg-white rounded-xl p-6 xl:w-80 w-full lg:h-[200px] xl:h-[220px] shadow-sm">
               <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
