@@ -7,28 +7,36 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "What is Neuros and how does it differ from other analytics platforms?",
-      answer: "Neuros is an AI-powered business analytics platform designed to provide real-time insights, predictive analytics, and seamless integrations with various tools. Unlike traditional analytics platforms, Neuros harnesses the power of artificial intelligence to offer more accurate forecasts, customizable dashboards, and a user-friendly interface tailored for businesses of all sizes."
+      question: "How do I set up my ZapGoCart storefront on WhatsApp?",
+      answer: "Getting started is easy! Just sign up, connect your WhatsApp number, and add your products. Your customers will instantly receive a product page when they message you on WhatsApp."
     },
     {
-      question: "How does the AI-driven predictive analytics feature work?",
-      answer: "Our AI-driven predictive analytics uses machine learning algorithms to analyze historical data patterns and predict future trends. It continuously learns from your data to provide increasingly accurate forecasts for revenue, customer behavior, and market opportunities."
+      question: "What does it cost to use ZapGoCart?",
+      answer: "ZapGoCart offers simple, transparent pricing with no hidden fees. Choose a plan that fits your business, whether you’re just starting out or scaling up. Contact us for details!"
     },
     {
-      question: "Is my data secure with Neuros?",
-      answer: "Yes, data security is our top priority. We use enterprise-grade encryption, secure data centers, and comply with industry standards including SOC 2 and GDPR to ensure your data remains protected at all times."
+      question: "Can I use ZapGoCart for both retail and wholesale orders?",
+      answer: "Absolutely! ZapGoCart is designed for both B2C and B2B workflows, so you can handle retail and wholesale inquiries with ease."
     },
     {
-      question: "Can I integrate Neuros with other tools and platforms I currently use?",
-      answer: "Absolutely! Neuros offers seamless integrations with over 100+ popular tools including CRMs, ERPs, marketing platforms, and databases. Our API also allows for custom integrations to fit your specific workflow needs."
+      question: "How do customers place orders through WhatsApp?",
+      answer: "Customers simply message you on WhatsApp and receive a product page instantly. They can browse and submit orders without needing to go through a traditional checkout."
     },
     {
-      question: "How is the pricing structured for Neuros? Are there any hidden fees?",
-      answer: "Our pricing is transparent with no hidden fees. We offer flexible plans based on your business size and needs, with options for monthly or annual billing. All features are clearly outlined in each plan with no surprise charges."
+      question: "How are orders confirmed and fulfilled?",
+      answer: "Every order is confirmed by you or your team via WhatsApp. You can chat with customers, confirm availability and pricing, and then fulfill the order."
     },
     {
-      question: "I'm new to business analytics. Does Neuros offer any support or tutorials?",
-      answer: "Yes! We provide comprehensive onboarding, detailed documentation, video tutorials, and 24/7 customer support. Our team also offers personalized training sessions to help you get the most out of Neuros analytics platform."
+      question: "What integrations does ZapGoCart support?",
+      answer: "ZapGoCart can connect with your existing tools and workflows. Reach out to our team to learn more about available integrations and custom options."
+    },
+    {
+      question: "What kind of support is available?",
+      answer: "We offer friendly onboarding, helpful guides, and responsive support. If you ever need help, our team is just a message away!"
+    },
+    {
+      question: "How do I get automated order updates?",
+      answer: "ZapGoCart sends automated order acknowledgements and status notifications, so you and your customers always know what’s happening."
     }
   ];
 
@@ -52,7 +60,7 @@ export default function FAQSection() {
 
             {/* Description */}
             <p className="text-lg text-gray-600 leading-relaxed">
-              Explore our frequently asked questions to learn more about Neuros's features, security, integration capabilities, and more
+              Explore our frequently asked questions to learn more about ZapGoCart’s setup, pricing, features, and more.
             </p>
           </div>
 
