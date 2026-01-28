@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function AnalyticsFeatures() {
+export default function Features() {
   return (
     <section className="xl:py-20 lg:py-16 md:py-12 py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-900 to-indigo-900 relative overflow-hidden">
       {/* Background Pattern */}

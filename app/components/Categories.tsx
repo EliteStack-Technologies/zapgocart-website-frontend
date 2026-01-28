@@ -1,4 +1,4 @@
-export default function InsightsFeatures() {
+export default function Categories() {
   const features = [
     {
       icon: (
@@ -149,15 +149,15 @@ export default function InsightsFeatures() {
   ];
 
   return (
-    <section className="xl:py-20 lg:py-16 md:py-12 py-10 px-4 sm:px-6 lg:px-8 bg-white" id="industry">
+    <section className="xl:py-20 lg:py-16 md:py-12 py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-900 to-indigo-900" id="industry">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center  mb-16">
-          <h2 className="lg:text-4xl xl:text-5xl md:text-3xl text-2xl font-bold text-gray-900 mb-6">
+          <h2 className="lg:text-4xl xl:text-5xl md:text-3xl text-2xl font-bold text-white mb-6">
             Who ZapGoCart Is Built For{" "}
           </h2>
 
-          <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg text-white max-w-4xl mx-auto leading-relaxed">
             ZapGoCart supports high-volume, repeat-order businesses that rely on
             fast conversations and reliable checkout.
           </p>
@@ -168,20 +168,20 @@ export default function InsightsFeatures() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl p-6 border border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all duration-300 group"
+              className="group rounded-xl p-6 border border-gray-200 hover:border-gray-300 hover:bg-white cursor-pointer hover:shadow-lg transition-all duration-300"
             >
               {/* Icon */}
-              <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center text-gray-600 group-hover:bg-blue-50 group-hover:text-blue-600 transition-all duration-300 mb-4">
+              <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center text-gray-600 group-hover:bg-blue-50 group-hover:text-black transition-all duration-300 mb-4">
                 {feature.icon}
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              <h3 className="text-xl font-semibold text-white group-hover:text-black mb-3">
                 {feature.title}
               </h3>
 
               {/* Description */}
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className="text-white leading-relaxed mb-4 group-hover:text-black">
                 {feature.description}
               </p>
             </div>

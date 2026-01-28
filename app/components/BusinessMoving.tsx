@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function BusinessContinuitySection() {
+export default function BusinessMoving() {
   return (
     <section className="xl:py-20 lg:py-16 md:py-12 py-10  px-4 sm:px-6 lg:px-8 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto">

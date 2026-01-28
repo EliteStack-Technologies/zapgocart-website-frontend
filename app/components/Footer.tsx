@@ -16,8 +16,24 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row flex-1 justify-between gap-6 sm:gap-8 md:gap-12 w-full text-center sm:text-left">
             {/* Home */}
             <div>
-              <h4 className="font-semibold mb-2">Home</h4>
+              <h4 className="font-semibold mb-2">Quick Links</h4>
               <ul className="space-y-1 text-gray-400 text-sm">
+                <li>
+                  <a
+                    href="/"
+                    className="hover:text-white transition-colors"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#howitswork"
+                    className="hover:text-white transition-colors"
+                  >
+                    How It Work
+                  </a>
+                </li>
                 <li>
                   <a
                     href="#industry"

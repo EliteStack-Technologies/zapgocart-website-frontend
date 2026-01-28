@@ -9,9 +9,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "ZapGoCart - Power Your E-Commerce Empire with Multi-Tenant Backend",
+  title: "ZapGoCart - Power Your E-Commerce Empire with ZapGoCart",
   description: "Complete multi-tenant e-commerce backend solution with order management, product catalog, customer portal, analytics, and WhatsApp integration. Start your free trial today.",
-  keywords: ["e-commerce backend", "multi-tenant", "order management", "SaaS", "online store"],
+  keywords: ["e-commerce",  "order management", "SaaS", 'whatsapp online store','Whatsapp e-commerce',"online store"],
 };
 
 export default function RootLayout({

@@ -1,12 +1,14 @@
+
 import CustomerLogos from './components/CustomerLogos';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
-import AnalyticsFeatures from './components/AnalyticsFeatures';
-import InsightsFeatures from './components/InsightsFeatures';
-import BusinessContinuitySection from './components/BusinessContinuitySection';
+import Features from './components/Features';
 import FAQSection from './components/FAQSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import { HowItsWork } from '@/components/HowItsWork';
+import BusinessMoving from './components/BusinessMoving';
+import Categories from './components/Categories';
 
 export default function Home() {
   return (
@@ -14,9 +16,10 @@ export default function Home() {
       <Header />
       <HeroSection />
       {/* <CustomerLogos /> */}
-      <AnalyticsFeatures />
-      <InsightsFeatures />
-      <BusinessContinuitySection />
+      <Features />
+      <HowItsWork />
+      <BusinessMoving />
+      <Categories />
       <FAQSection />
       <ContactSection />
       <Footer />
