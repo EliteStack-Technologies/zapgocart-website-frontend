@@ -26,7 +26,7 @@ export default function HeroSection() {
 
         {/* Main Headline */}
         <div className="text-center max-w-4xl mx-auto mb-8 animate-slide-up">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent">
               Power Your E-Commerce Empire with ZapGoCart
             </span>
