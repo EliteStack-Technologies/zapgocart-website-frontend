@@ -1,9 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 export default function HeroSection() {
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   return (
     <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
@@ -49,21 +49,24 @@ export default function HeroSection() {
 
         {/* Video/Dashboard Preview */}
         <div className="relative   max-w-5xl mx-auto animate-slide-up delay-400">
-          <div className="relative md:h-[400px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white p-1">
+          <div className=" h-[200px] md:h-[400px] lg:h-[550px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white p-1">
             <div className="relative rounded-xl overflow-hidden bg-white">
               {/* Grid Background Pattern */}
               <div className="absolute inset-0 bg-grid-pattern opacity-30" />
 
               {/* Floating Orbs */}
-              <div className="absolute top-1/4 right-1/4 w-32 h-32 bg-blue-400/40 rounded-full blur-2xl animate-float" />
-              <div className="absolute bottom-1/3 left-1/3 w-24 h-24 bg-purple-400/40 rounded-full blur-2xl animate-float delay-500" />
-
+             
               {/* Video Play Button Overlay */}
               <div className="relative aspect-video flex items-center justify-center">
-                <button
-                  className="group relative"
-                  onClick={() => setIsVideoPlaying(true)}
-                ></button>
+                  {/* <video
+                    src="/intor-video.mp4"
+                    controls
+                    autoPlay
+                    muted
+                    className="w-full h-full object-cover rounded-xl"
+                  /> */}
+                  <Image src={'/step-5.png'} alt="zapgocart" width={900} height={600} className="w-full absolute -top-10  md:-top-18  lg:-top-32" />
+      
               </div>
             </div>
           </div>

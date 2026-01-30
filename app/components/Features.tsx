@@ -18,12 +18,13 @@ export default function Features() {
           <div className="relative">
             <div className="relative z-10">
               <Image
-                src="/phone_mockup.png"
+                src="/phone_mockup11.png"
                 alt="Analytics Dashboard Mobile Mockup"
-                width={300}
+                width={800}
                 height={400}
-                className="object-contain mx-auto"
+                className="object-contain mx-auto "
                 priority
+
               />
             </div>
           </div>
@@ -32,7 +33,7 @@ export default function Features() {
           <div className="text-white space-y-8">
             <div>
               <h2 className="lg:text-4xl xl:text-5xl md:text-3xl text-2xl font-bold leading-tight mb-6">
-                WHY CUSTOMERS LOVE THE EXPERIENCE
+                WHY CUSTOMERS LOVE THE EXPERIENCE 
               </h2>
             </div>
 
