@@ -49,7 +49,7 @@ export default function HeroSection() {
 
         {/* Video/Dashboard Preview */}
         <div className="relative   max-w-5xl mx-auto animate-slide-up delay-400">
-          <div className=" h-[280px] md:h-[400px] lg:h-[550px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white p-1">
+          <div className=" h-[260px] md:h-[400px] lg:h-[550px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white p-1">
             <div className="relative h-full rounded-xl overflow-hidden bg-white">
               {/* Grid Background Pattern */}
 
@@ -64,7 +64,7 @@ export default function HeroSection() {
                     muted
                     className="w-full h-full object-cover rounded-xl"
                   /> */}
-                  <Image src={'/step-5.png'} alt="zapgocart" width={900} height={600} className="w-full  absolute   md:-top-18  lg:-top-32" />
+                  <Image src={'/step-5.png'} alt="zapgocart" width={900} height={600} className="w-full  absolute   md:-top-18  lg:-top-32 rounded-md" />
       
               </div>
             </div>
