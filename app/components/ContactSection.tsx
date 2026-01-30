@@ -63,7 +63,7 @@ export default function ContactSection() {
 
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-16 flex flex-col justify-center items-center">
+        <div className="text-center mb-6 md:mb-16 flex flex-col justify-center items-center">
           <h2 className="lg:text-4xl xl:text-5xl md:text-3xl text-2xl font-bold text-black mb-6 w-[50%]">
            Get in
               touch
@@ -74,9 +74,9 @@ export default function ContactSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-16 gap-8 items-center">
           {/* Left Side - Contact Form */}
-          <div className="space-y-8">
+          <div className="space-y-8 order-2 lg:order-1">
             <div>
               <h3 className="text-3xl font-bold text-black mb-4">
                 Let's connect constellations
@@ -89,7 +89,7 @@ export default function ContactSection() {
             {/* Contact Form */}
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name Fields */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1  md:grid-cols-2 gap-4">
                 <div>
                   <input
                     type="text"
@@ -174,14 +174,14 @@ export default function ContactSection() {
           </div>
 
           {/* Right Side - Image and Quote */}
-          <div className="relative">
+          <div className="relative order-1 lg:order-2">
             <div className="relative z-10">
               <Image 
-                src="/order_mockup.png" 
+                src="/order_mockup1.png" 
                 alt="Contact Illustration" 
-                width={500} 
-                height={600}
-                className="object-contain mx-auto"
+                width={700} 
+                height={700}
+                className="object-contain mx-auto max-w-none w-full"
                 priority
               />
             </div>

@@ -49,15 +49,14 @@ export default function HeroSection() {
 
         {/* Video/Dashboard Preview */}
         <div className="relative   max-w-5xl mx-auto animate-slide-up delay-400">
-          <div className=" h-[200px] md:h-[400px] lg:h-[550px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white p-1">
-            <div className="relative rounded-xl overflow-hidden bg-white">
+          <div className=" h-[280px] md:h-[400px] lg:h-[550px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white p-1">
+            <div className="relative h-full rounded-xl overflow-hidden bg-white">
               {/* Grid Background Pattern */}
-              <div className="absolute inset-0 bg-grid-pattern opacity-30" />
 
               {/* Floating Orbs */}
              
               {/* Video Play Button Overlay */}
-              <div className="relative aspect-video flex items-center justify-center">
+              <div className="relative h-full w-full aspect-video flex items-center justify-center">
                   {/* <video
                     src="/intor-video.mp4"
                     controls
@@ -65,7 +64,7 @@ export default function HeroSection() {
                     muted
                     className="w-full h-full object-cover rounded-xl"
                   /> */}
-                  <Image src={'/step-5.png'} alt="zapgocart" width={900} height={600} className="w-full absolute -top-10  md:-top-18  lg:-top-32" />
+                  <Image src={'/step-5.png'} alt="zapgocart" width={900} height={600} className="w-full  absolute   md:-top-18  lg:-top-32" />
       
               </div>
             </div>

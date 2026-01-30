@@ -38,8 +38,8 @@ export function HowItsWork() {
       <HowItsWorkSteps 
         features={features}
         title="How ZapGoCart Works"
-        autoPlayInterval={4000}
-        imageHeight="h-[200px] md:h-[400px] lg:h-[400px] xl:h-[450px]"
+        autoPlayInterval={3000}
+        imageHeight="h-[300px] md:h-[400px] lg:h-[400px] xl:h-[450px]"
         
       />
   )

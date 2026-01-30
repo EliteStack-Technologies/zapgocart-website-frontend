@@ -16,15 +16,14 @@ export default function Features() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Side - Phone Mockup */}
           <div className="relative">
-            <div className="relative z-10">
+            <div className="relative z-10 w-full flex justify-center items-center">
               <Image
                 src="/phone_mockup11.png"
                 alt="Analytics Dashboard Mobile Mockup"
                 width={800}
-                height={400}
-                className="object-contain mx-auto "
+                height={600}
+                className="object-cover max-w-none w-[500px] lg:w-[800px] "
                 priority
-
               />
             </div>
           </div>
